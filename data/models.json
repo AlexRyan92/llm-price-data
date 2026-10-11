@@ -1,0 +1,125 @@
+{
+  "verified": "Oct 7, 2026",
+  "source": "https://alexryan.tech/reference/llm-models/",
+  "unit": "USD per million tokens, standard tier",
+  "models": [
+    {
+      "id": "fable-5-1",
+      "name": "Claude Fable 5.1",
+      "provider": "Anthropic",
+      "in": 10,
+      "out": 50,
+      "ctx": 1000000,
+      "maxOut": 128000
+    },
+    {
+      "id": "opus-5-5",
+      "name": "Claude Opus 5.5",
+      "provider": "Anthropic",
+      "in": 4,
+      "out": 20,
+      "ctx": 1000000
+    },
+    {
+      "id": "sonnet-5-5",
+      "name": "Claude Sonnet 5.5",
+      "provider": "Anthropic",
+      "in": 2,
+      "out": 10,
+      "ctx": 1000000
+    },
+    {
+      "id": "haiku-4-5",
+      "name": "Claude Haiku 4.5",
+      "provider": "Anthropic",
+      "in": 1,
+      "out": 5,
+      "ctx": 200000
+    },
+    {
+      "id": "gpt-6-astra",
+      "name": "GPT-6 Astra",
+      "provider": "OpenAI",
+      "in": 10,
+      "out": 50,
+      "ctx": 1050000,
+      "maxOut": 128000,
+      "longCtx": {
+        "over": 272000,
+        "inMult": 2,
+        "outMult": 1.5
+      }
+    },
+    {
+      "id": "gpt-6-sol",
+      "name": "GPT-6 Sol",
+      "provider": "OpenAI",
+      "in": 2,
+      "out": 10,
+      "ctx": 1050000,
+      "maxOut": 128000,
+      "longCtx": {
+        "over": 272000,
+        "inMult": 2,
+        "outMult": 1.5
+      }
+    },
+    {
+      "id": "gpt-6-luna",
+      "name": "GPT-6 Luna",
+      "provider": "OpenAI",
+      "in": 0.1,
+      "out": 0.5,
+      "ctx": 1050000,
+      "maxOut": 128000,
+      "longCtx": {
+        "over": 272000,
+        "inMult": 2,
+        "outMult": 1.5
+      }
+    },
+    {
+      "id": "gpt-56-terra",
+      "name": "GPT-5.6 Terra",
+      "provider": "OpenAI",
+      "in": 2,
+      "out": 12,
+      "ctx": 1050000,
+      "maxOut": 128000,
+      "longCtx": {
+        "over": 272000,
+        "inMult": 2,
+        "outMult": 1.5
+      }
+    },
+    {
+      "id": "gemini-31-pro",
+      "name": "Gemini 3.1 Pro",
+      "provider": "Google",
+      "in": 2,
+      "out": 12,
+      "ctx": 1000000,
+      "longCtx": {
+        "over": 200000,
+        "inMult": 2,
+        "outMult": 1.5
+      }
+    },
+    {
+      "id": "gemini-35-flash",
+      "name": "Gemini 3.5 Flash",
+      "provider": "Google",
+      "in": 1.5,
+      "out": 9,
+      "ctx": 1000000
+    },
+    {
+      "id": "gemini-31-lite",
+      "name": "Gemini 3.1 Flash-Lite",
+      "provider": "Google",
+      "in": 0.25,
+      "out": 1.5,
+      "ctx": 1000000
+    }
+  ]
+}

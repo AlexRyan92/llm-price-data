@@ -1,0 +1,30 @@
+{
+  "note": "Structured price events, newest first. An event is recorded when a tracked price moves, a model is added, or a full-table verification pass runs.",
+  "events": [
+    {
+      "date": "2026-10-07",
+      "type": "verify",
+      "models": [
+        "all"
+      ],
+      "note": "Initial publication. All 11 model rates verified against provider pricing pages."
+    },
+    {
+      "date": "2026-09-22",
+      "type": "launch",
+      "models": [
+        "gpt-6-sol",
+        "gpt-6-luna"
+      ],
+      "note": "GPT-6 Sol listed at $2 / $10 and GPT-6 Luna at $0.10 / $0.50."
+    },
+    {
+      "date": "2026-09-03",
+      "type": "launch",
+      "models": [
+        "gpt-6-astra"
+      ],
+      "note": "GPT-6 Astra listed at $10 / $50 with a 1.05M window and a 2x input surcharge past 272K."
+    }
+  ]
+}
